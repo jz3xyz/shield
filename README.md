@@ -12,7 +12,7 @@ end_time and generation.
 ![](homework.gif)
 
 #### tl; dr
-There's alot to unpack and y'all are busy navigate to `quickstart`
+There's alot to unpack and y'all are busy so navigate to `quickstart`
 ```
 tar –xzvf shield.tar.gz
 ```
@@ -108,7 +108,7 @@ If you're familiar with node, npm, react, express, and the js end-to-end stack h
 npm install && npm run build && npm run start
 ```
 
-### Development mode with hot reloading
+### Development mode with hotreloading
 Quicker to hot reload and devtest, but without minification, tree-shaking, and other webpack perks.
 ```
 npm run start
