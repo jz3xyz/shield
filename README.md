@@ -1,14 +1,18 @@
 ## Preface
-Here's my prototype for the Software Engineer - Full-Stack/Back-End Assignment *./guidelines.pdf*.
-Using create-react-app as my starting point, I implemented an end-to-end javascript pipeline for 
-storing, consuming, interfacing, and retrieving logs.  All the bare minimum log data expectations (Serial ID, start_time,
-end_time, generation, etc) are included in the datastore and surfaced through an rpc-esque api (api/getLogs api/insertLogs)
-and React / Redux UI. The implentation includes extra #2, the bounded rectangle, as a filter under the geofence accordion.
+This project contains my submission for the FullStack Engineer position at ShieldAI - Full-Stack/Back-End Assignment *./guidelines.pdf*.
+
+Using `create-react-app` as a starting point, I implemented an end-to-end javascript pipeline for 
+storing, consuming, interfacing, and retrieving logs.
+
+The tool provides a datastore and visualization layer for Serial ID, start_time,
+end_time and generation.
+- the datastore surfaces the required endpoints, `api/getLogs` and `api/insertLogs` through an rpc-esque api 
+- the frontend React/Redux app includes extra #2, the bounded rectangle, as a filter under the geofence accordion.
 
 ![](homework.gif)
 
 #### tl; dr
-There's alot to unpack and y'all are busy with start up so `ctrl-f quickstart`
+There's alot to unpack and y'all are busy navigate to `quickstart`
 ```
 tar –xzvf shield.tar.gz
 ```
